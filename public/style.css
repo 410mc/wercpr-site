@@ -35,6 +35,15 @@ h2{font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.2;margin:0 0 12px;color:var(
 .card h3{margin:0 0 8px;color:var(--navy);font-size:1.1rem}
 .card p{margin:0;color:var(--muted);font-size:.97rem}
 
+/* v6: photos + red buttons */
+.hero{background:linear-gradient(135deg,rgba(15,27,61,.9),rgba(23,40,88,.72)),url("/assets/city-chattanooga.jpg") center 40%/cover no-repeat;color:#fff}
+.page-head{background:linear-gradient(90deg,var(--soft) 0%,var(--soft) 38%,rgba(238,243,250,0) 72%),url("/assets/aha-training-banner.webp") right center/cover no-repeat;min-height:170px;display:flex;align-items:center;padding:40px 0}
+.page-head .wrap{width:100%}
+@media(max-width:700px){.page-head{background:linear-gradient(90deg,var(--soft) 0%,var(--soft) 55%,rgba(238,243,250,.2) 100%),url("/assets/aha-training-banner.webp") 75% center/cover no-repeat;min-height:130px}}
+.chips a{background:var(--red);border-color:var(--red);color:#fff}
+.chips a:hover{background:var(--red-dark);border-color:var(--red-dark);color:#fff}
+.chips a::before{background:#fff}
+
 /* v5: contact layout */
 .contact-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:32px;align-items:stretch;padding:56px 0}
 .contact-info{display:flex;flex-direction:column;gap:20px}
