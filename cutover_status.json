@@ -1,0 +1,22 @@
+{
+  "state": "deploying",
+  "error": "",
+  "updated": "2026-11-19T21:11:20",
+  "parity": "ok",
+  "records_total": 8,
+  "zone_id": "0f1aed3050f5bc3491957d3ece5e3307",
+  "nameservers": [
+    "june.ns.cloudflare.com",
+    "marty.ns.cloudflare.com"
+  ],
+  "copied": [],
+  "skipped": [
+    "A @ (WP Engine)",
+    "A @ (WP Engine)",
+    "NS @",
+    "NS @",
+    "www CNAME (WP Engine)",
+    "_domainconnect"
+  ],
+  "zone_status": "active"
+}
